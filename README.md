@@ -15,13 +15,13 @@ they stay where they are. This is reflected in the final rows of the matrix.
 
 ## Usage
 
-### Generate the data
+### Generate the data
 
 To generate the data:
 
     $ python main.py
 
-### Use the dataa
+### Use the dataa
 
 To load the data as a numpy array:
 
