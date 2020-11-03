@@ -15,9 +15,13 @@ they stay where they are. This is reflected in the final rows of the matrix.
 
 ## Usage
 
-To use generate the data:
+### Generate the data
+
+To generate the data:
 
     $ python main.py
+
+### Use the dataa
 
 To load the data as a numpy array:
 
@@ -46,11 +50,13 @@ Similarly the row that corresponds to the 98th square captures that:
 - 1/6 of the time the game ends
 - 2/3 of the time the player stays where they are.
 
+We can see check this:
+
     >>> P[-3]
     array([0. ... 0.166667, ... 0.666667, 0.      , 0.166667])
     >>> P[-3, 70]
     0.166667
 
-## To test that the results listed in this README are correct:
+## To test that the results listed in this README are as expected
 
     $ python -m pytest --doctest-glob=README.md
