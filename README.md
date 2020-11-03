@@ -11,9 +11,13 @@ they stay where they are. This is reflected in the final rows of the matrix.
 
 ## Usage
 
-To use generate the data:
+### Generate the data
+
+To generate the data:
 
     $ python main.py
+
+### Use the dataa
 
 To load the data as a numpy array:
 
@@ -49,6 +53,6 @@ We can see check this:
     >>> P[-3, 70]
     0.166667
 
-## To test that the results listed in this README are correct:
+## To test that the results listed in this README are as expected
 
     $ python -m pytest --doctest-glob=README.md
