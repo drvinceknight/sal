@@ -36,3 +36,5 @@ jobs:
     - name: Confirm that documentation is correct
       run: |
         python -m pytest --doctest-glob=README.md
+    - name: Check that generation script matches black
+        python -m black main.py
