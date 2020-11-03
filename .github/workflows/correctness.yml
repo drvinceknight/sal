@@ -37,4 +37,5 @@ jobs:
       run: |
         python -m pytest --doctest-glob=README.md
     - name: Check that generation script matches black
+      run: |
         python -m black main.py
