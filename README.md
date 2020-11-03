@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4236276.svg)](https://doi.org/10.5281/zenodo.4236276)
 
+![Validate README.md](https://github.com/drvinceknight/sal/workflows/Validate%20README.md/badge.svg)
+
 # Snakes and ladders
 
 This repository contains a script to generate [`main.csv`](./main.csv) which
