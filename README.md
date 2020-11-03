@@ -42,6 +42,7 @@ Similarly the row that corresponds to the 98th square captures that:
 - 1/6 of the time the game ends
 - 2/3 of the time the player stays where they are.
 
+
     >>> P[-3]
     array([0. ... 0.166667, ... 0.666667, 0.      , 0.166667])
     >>> P[-3, 70]
