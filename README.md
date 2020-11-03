@@ -1,16 +1,13 @@
 # Snakes and ladders
 
-This repository contains a script to generate `main.csv` which contains a numpy
-array for Snakes and ladders.
+This repository contains a script to generate [`main.csv`](./main.csv) which
+contains the transition matrix for a Markov chain representation of the popular
+board game Snakes and Ladders.
 
 ## Assumptions
 
-The snakes and ladders are as described in the "Building Tools - Modularisation"
-chapter tutorial.
-
-Furthermore the official rules are used: a player must land exactly on 100, if
-they do not they stay where they are. This is reflected in the final rows of the
-matrix.
+The official rules are used: a player must land exactly on 100, if they do not
+they stay where they are. This is reflected in the final rows of the matrix.
 
 ## Usage
 
