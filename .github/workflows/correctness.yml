@@ -1,4 +1,4 @@
-name: Test correctness of notebooks
+name: Validate README.md
 
 on:
   push:
