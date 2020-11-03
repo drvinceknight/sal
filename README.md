@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4236276.svg)](https://doi.org/10.5281/zenodo.4236276)
+
 # Snakes and ladders
 
 This repository contains a script to generate [`main.csv`](./main.csv) which
